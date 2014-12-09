@@ -5,6 +5,7 @@ return [
         'host' => 'localhost',
         'user' => 'root',
         'password' => '',
-        'dbname' => 'test'
+        'dbname' => 'test',
+        'dbtab' => 'news'
     ]
 ];

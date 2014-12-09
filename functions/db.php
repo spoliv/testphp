@@ -20,7 +20,8 @@ function DBQuery($sql)
 {
     DBConnect();
     $res = mysql_query($sql);
-    if (!$res) {
+    if (!$res)
+    {
         echo mysql_error();
         return [];
     }
@@ -32,3 +33,10 @@ function DBQuery($sql)
     }
     return $ret;
 }
+
+    if (isset($_POST['article']))
+    {
+        $art = $_POST['article'];
+        DBConnect();
+        mysql_query("INSERT INTO `news` (`text`) VALUES('$art')");
+    }
