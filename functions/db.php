@@ -34,9 +34,3 @@ function DBQuery($sql)
     return $ret;
 }
 
-    if (isset($_POST['article']))
-    {
-        $art = $_POST['article'];
-        DBConnect();
-        mysql_query("INSERT INTO `news` (`text`) VALUES('$art')");
-    }

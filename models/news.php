@@ -8,3 +8,10 @@ function News_getAll()
     SELECT * FROM news
     ");
 }
+if (isset($_POST['article']) && isset($_POST['title']))
+{
+    $artar = $_POST['article'];
+    $artti = $_POST['title'];
+    DBConnect();
+    mysql_query("INSERT INTO `news` (`title`, `text`) VALUES('$artti', '$artar')");
+}
