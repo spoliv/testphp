@@ -16,12 +16,12 @@ function News_getAll()
         mysql_query("INSERT INTO news (title, text) VALUES('$artti', '$artar')");
     }
 
-    if(isset($_GET['id']))
-    {
-        $artic = $_GET['id'];
-        DBConnect();
-        $res=mysql_query("SELECT * FROM news WHERE id=$artic");
-        $row=mysql_fetch_array($res);
+function News_getOne($id)
+{
+    return DBQuery_One("SELECT * FROM news WHERE id = $id");
 
-            echo $row['title'], $row['text'];
-    }
+}
+
+
+
+

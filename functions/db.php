@@ -33,4 +33,11 @@ function DBQuery($sql)
     }
     return $ret;
 }
+    function DBQuery_One($sql)
+    {
+        DBConnect();
+        $res = mysql_query($sql);
+        $row = mysql_fetch_assoc($res);
+        return $row;
+    }
 
