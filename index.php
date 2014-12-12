@@ -6,3 +6,5 @@ $news = News_getAll();
 
 include 'view/index.php';
 include 'view/form.php';
+
+
