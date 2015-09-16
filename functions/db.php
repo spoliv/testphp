@@ -4,7 +4,6 @@ function config()
 {
     return include __DIR__ . '/../config.php';
 }
-
 function DBConnect()
 {
     $config = config();
