@@ -40,3 +40,9 @@ function DBQuery($sql)
         return $row;
     }
 
+    function DBQuery_Add($sql)
+    {
+        DBConnect();
+        mysql_query($sql);
+    }
+
