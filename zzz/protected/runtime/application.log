@@ -1,0 +1,112 @@
+2015/10/13 14:50:20 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: jquery-clockpicker-js' in C:\OpenServer\domains\test\yii\framework\web\CClientScript.php:598
+Stack trace:
+#0 C:\OpenServer\domains\test\zzz\protected\extensions\clockpicker\ClockPicker.php(33): CClientScript->registerCoreScript('jquery-clockpic...')
+#1 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(147): ClockPicker->init()
+#2 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\OpenServer\domains\test\zzz\protected\views\demo\index.php(15): CBaseController->widget('application.ext...', Array)
+#4 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\test\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#7 C:\OpenServer\domains\test\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\OpenServer\domains\test\zzz\protected\controllers\DemoController.php(7): CController->render('index')
+#9 C:\OpenServer\domains\test\yii\framework\web\actions\CInlineAction.php(49): DemoController->actionIndex()
+#10 C:\OpenServer\domains\test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('demo')
+#15 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\test\zzz\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/zzz/index.php?r=demo
+HTTP_REFERER=http://test/zzz/index.php?r=gii/controller/index
+---
+2015/10/13 14:51:34 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: jquery-clockpicker-js' in C:\OpenServer\domains\test\yii\framework\web\CClientScript.php:598
+Stack trace:
+#0 C:\OpenServer\domains\test\zzz\protected\extensions\clockpicker\ClockPicker.php(33): CClientScript->registerCoreScript('jquery-clockpic...')
+#1 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(147): ClockPicker->init()
+#2 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\OpenServer\domains\test\zzz\protected\views\demo\index.php(17): CBaseController->widget('application.ext...', Array)
+#4 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\test\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#7 C:\OpenServer\domains\test\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\OpenServer\domains\test\zzz\protected\controllers\DemoController.php(7): CController->render('index')
+#9 C:\OpenServer\domains\test\yii\framework\web\actions\CInlineAction.php(49): DemoController->actionIndex()
+#10 C:\OpenServer\domains\test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('demo')
+#15 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\test\zzz\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/zzz/index.php?r=demo
+HTTP_REFERER=http://test/zzz/index.php?r=gii/controller/index
+---
+2015/10/13 15:37:51 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: jquery-clockpicker-js' in C:\OpenServer\domains\test\yii\framework\web\CClientScript.php:598
+Stack trace:
+#0 C:\OpenServer\domains\test\zzz\protected\extensions\clockpicker\ClockPicker.php(33): CClientScript->registerCoreScript('jquery-clockpic...')
+#1 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(147): ClockPicker->init()
+#2 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\OpenServer\domains\test\zzz\protected\views\demo\index.php(17): CBaseController->widget('application.ext...', Array)
+#4 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\test\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#7 C:\OpenServer\domains\test\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\OpenServer\domains\test\zzz\protected\controllers\DemoController.php(7): CController->render('index')
+#9 C:\OpenServer\domains\test\yii\framework\web\actions\CInlineAction.php(49): DemoController->actionIndex()
+#10 C:\OpenServer\domains\test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('demo')
+#15 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\test\zzz\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/zzz/index.php?r=demo
+---
+2015/10/13 15:40:26 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: jquery-clockpicker-js' in C:\OpenServer\domains\test\yii\framework\web\CClientScript.php:598
+Stack trace:
+#0 C:\OpenServer\domains\test\zzz\protected\extensions\clockpicker\ClockPicker.php(33): CClientScript->registerCoreScript('jquery-clockpic...')
+#1 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(147): ClockPicker->init()
+#2 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.clockpicker...', Array)
+#3 C:\OpenServer\domains\test\zzz\protected\views\demo\index.php(17): CBaseController->widget('ext.clockpicker...', Array)
+#4 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\test\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#7 C:\OpenServer\domains\test\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\OpenServer\domains\test\zzz\protected\controllers\DemoController.php(7): CController->render('index')
+#9 C:\OpenServer\domains\test\yii\framework\web\actions\CInlineAction.php(49): DemoController->actionIndex()
+#10 C:\OpenServer\domains\test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('demo')
+#15 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\test\zzz\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/zzz/index.php?r=demo
+---
+2015/10/13 15:40:31 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: jquery-clockpicker-js' in C:\OpenServer\domains\test\yii\framework\web\CClientScript.php:598
+Stack trace:
+#0 C:\OpenServer\domains\test\zzz\protected\extensions\clockpicker\ClockPicker.php(33): CClientScript->registerCoreScript('jquery-clockpic...')
+#1 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(147): ClockPicker->init()
+#2 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('ext.clockpicker...', Array)
+#3 C:\OpenServer\domains\test\zzz\protected\views\demo\index.php(17): CBaseController->widget('ext.clockpicker...', Array)
+#4 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\test\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#7 C:\OpenServer\domains\test\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\OpenServer\domains\test\zzz\protected\controllers\DemoController.php(7): CController->render('index')
+#9 C:\OpenServer\domains\test\yii\framework\web\actions\CInlineAction.php(49): DemoController->actionIndex()
+#10 C:\OpenServer\domains\test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('demo')
+#15 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\test\zzz\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/zzz/index.php?r=demo
+---
